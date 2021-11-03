@@ -1,0 +1,462 @@
+@import url("https://fonts.googleapis.com/css2? family=Source+Sans+Pro:wght@300&display=swap");
+
+html {
+  font-size: 62.5%;
+  text-transform: capitalize;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: content-box;
+}
+
+body {
+  font-style: italic;
+  font-family: "Source Sans Pro", sans-serif;
+  font-size: 1.5rem;
+}
+
+/* menu principal*/
+
+/* HEADER */
+
+.logo {
+  width: 8rem;
+  animation: logo 5s;
+}
+
+@keyframes logo {
+  0% {
+    opacity: 0;
+    transform: translatey(-100px);
+  }
+  20%,
+  80% {
+    opacity: 1;
+    transform: translateX(0);
+  }
+}
+
+@keyframes menu {
+  0% {
+    opacity: 0;
+    transform: translatex(-100px);
+  }
+  20%,
+  80% {
+    opacity: 1;
+    transform: translateX(0);
+  }
+}
+
+a {
+  font-style: italic;
+  text-decoration: none;
+  color: white;
+  font-size: 1.5rem;
+}
+
+.menu {
+  text-align: center;
+  animation: menu 5s normal;
+}
+
+.menu li {
+  padding: 1rem;
+  display: inline-block;
+  position: relative;
+}
+
+a:hover {
+  color: yellow;
+  font-size: 2rem;
+}
+
+header {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  background-color: #fca311;
+  position: sticky;
+}
+
+.nav {
+  align-items: center;
+  display: inline-block;
+}
+
+.quienes-Somos {
+  width: 80%;
+  margin: 0 auto 2rem;
+  display: flex;
+  flex-direction: column;
+  align-content: space-around;
+}
+.tituloMenu {
+  padding: 2rem;
+  color: black;
+  text-align: center;
+}
+
+.quienes_Somos {
+  color: black;
+  text-align: center;
+  padding-bottom: 2rem;
+  font-size: 2.5rem;
+}
+
+.imagenes {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  width: 60%;
+  margin: 0 auto;
+}
+/* section */
+.padre {
+  background-color: #14213d;
+  color: aqua;
+  width: 100%;
+  margin: 0 auto 3rem;
+  height: 50rem;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+}
+
+.familia-Pastoral {
+  display: inline-block;
+  color: white;
+  font-size: 2.5rem;
+}
+
+.padre .altare {
+  width: 40%;
+}
+
+.padre .altare img {
+  width: 100%;
+  height: 70%;
+}
+
+/* footer */
+
+footer {
+  background-color: black;
+}
+
+.mapa {
+  width: 10%;
+  height: 10rem;
+  border-radius: 10rem;
+  position: sticky;
+}
+
+.insta_Iglesia {
+  color: yellow;
+  font-size: 2rem;
+}
+
+.face_Iglesia {
+  color: yellow;
+  font-size: 2rem;
+}
+
+nav {
+  color: #e76f51;
+  list-style-position: inside;
+}
+
+.redes_sociales {
+  color: yellow;
+}
+
+/*ministerio*/
+
+.tipo_Ministerios {
+  background-color: black;
+  width: 100%;
+  display: grid;
+  grid-template-columns: repeat(3, 2fr);
+  grid-template-rows: repeat(4, 1fr);
+  grid-template-areas:
+    "genomas cami karu"
+    "ivan jovenes josue"
+    "desconocido  tania niños"
+    "calle27 tety altare";
+  align-items: center;
+}
+
+.ministerios {
+  grid-area: genomas;
+  color: aquamarine;
+  text-align: center;
+  padding-bottom: 2rem;
+}
+
+.parrafo_Ministerio {
+  font-size: 2rem;
+  color: #e76f51;
+  text-align: center;
+}
+
+.titulo_Ministerios {
+  background-image: linear-gradient(to top, black, teal);
+  text-align: center;
+  color: tomato;
+  letter-spacing: 0.5rem;
+  font-weight: bold;
+}
+
+.karu {
+  grid-area: karu;
+  width: 100%;
+  height: 90%;
+}
+
+.cami {
+  grid-area: cami;
+  width: 100%;
+  height: 90%;
+}
+
+.ivo_Cantando {
+  grid-area: ivan;
+  width: 100%;
+  height: 90%;
+}
+
+.josue {
+  grid-area: josue;
+  width: 100%;
+  height: 90%;
+}
+
+.tania {
+  grid-area: tania;
+  width: 100%;
+  height: 90%;
+}
+
+.desconocido {
+  grid-area: desconocido;
+  width: 100%;
+  height: 90%;
+}
+
+.wally {
+  grid-area: altare;
+  width: 100%;
+  height: 90%;
+}
+
+.tety {
+  grid-area: tety;
+  width: 100%;
+  height: 90%;
+}
+
+.jovenes {
+  font-size: 3rem;
+}
+
+.jovenes:hover {
+  font-size: 4rem;
+  color: #fca311;
+}
+/* footer */
+
+.color-Ministerios {
+  background-image: linear-gradient(to top, teal, black);
+}
+
+/* como trabajamos */
+
+.trabajamos {
+  height: 15rem;
+  background-image: linear-gradient(to top, white, #fca311);
+}
+
+.trabajamos_Titulo {
+  text-align: center;
+  color: black;
+}
+
+.parrafo-Trabajamos {
+  color: black;
+  text-align: justify;
+}
+
+.celulas .lideres {
+  display: grid;
+}
+.celulas {
+  width: 100%;
+  height: 60rem;
+  background-color: white;
+  display: grid;
+  grid-template-columns: repeat(3, 2fr);
+  grid-template-rows: repeat(2, 3.5fr);
+}
+
+.lideres {
+  padding-top: 2rem;
+  color: white;
+  width: 35rem;
+  height: 30px;
+  border: solid 0.5rem #5f2c82;
+  border-radius: 2rem;
+  justify-content: center;
+  transition: height, 2s;
+}
+
+.lideres:hover {
+  height: 270px;
+  padding: 2rem;
+  color: white;
+  background-color: teal;
+  border: solid 0.5px white;
+  cursor: pointer;
+}
+
+.titulo_Celulas {
+  color: #e76f51;
+  text-align: center;
+}
+
+.footer_Celulas {
+  background-image: linear-gradient(to top, #fca311, white);
+  height: 20rem;
+}
+
+.footer_Nav {
+  color: black;
+}
+.footer_Nav a {
+  color: black;
+}
+
+/*contactos*/
+
+.formulario {
+  background-image: url(../multimedia/familia_pastoral.jpeg);
+  display: flex;
+  flex-flow: column;
+  justify-content: space-evenly;
+  align-items: center;
+  width: 100%;
+  height: 50rem;
+  border: solid 0.5rem blak;
+  border-radius: 4rem;
+}
+
+.div-Contactos {
+  align-items: center;
+}
+
+.contactos {
+  transition: all, 2s;
+}
+
+.contactos:focus {
+  width: 30rem;
+  background-color: #aaaa;
+}
+
+/* footer */
+.footer-Contactos {
+  height: 20rem;
+  background-color: black;
+}
+
+/* media queri */
+
+/* ministerios */
+@media screen and (max-width: 790px) {
+  .header {
+    background-color: aqua;
+  }
+
+  .titulo_Ministerios {
+    color: aqua;
+    background-color: white;
+    font-size: 4rem;
+  }
+
+  .tipo_Ministerios {
+    background-color: gray;
+    grid-template-columns:50%, 50%;
+    grid-template-rows: repeat(4, 3fr);
+    grid-area: "genomas cami" "karu ivan" "jovenes josue" "desconocido tania"
+      "niños calle27" "tety altare";
+  }
+
+  .ministerios{font-size: 1.5rem;}
+
+  .parrafo_Ministerio{font-size: 1.5rem;
+  color:black;}
+
+
+  .karu,
+  .cami,
+  .ivo_Cantando,
+  .josue,
+  .tania,
+  .desconocido,
+  .wally,
+  .tety {
+    grid-area: unset;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .tipo_Ministerios {
+    grid-template-columns: 100%;
+    grid-template-rows: repeat(12, 1fr);
+    grid-template-areas: unset;
+  }
+
+  .karu,
+  .cami,
+  .ivo_Cantando,
+  .josue,
+  .tania,
+  .desconocido,
+  .wally,
+  .tety {
+    grid-area: unset;
+  }
+}
+
+/* index */
+
+@media screen and(max-width: 790px) {
+}
+
+@media screen and (max-width: 600px) {
+  .menu_Index .quienes_Somos {
+    justify-content: center;
+    font-size: 2rem;
+  }
+  .miguel {
+    height: 30rem;
+    align-items: center;
+  }
+
+  .padre {
+    height: 70rem;
+    flex-wrap: nowrap;
+    flex-direction: column;
+  }
+  .padre .altare img {
+    width: 120%;
+    height: 120%;
+  }
+  .familia-Pastoral {
+    justify-content: center;
+    font-size: 2rem;
+    margin: 0%;
+  }
+}
