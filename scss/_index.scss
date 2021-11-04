@@ -1,69 +1,4 @@
-.fondo-Negro {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    width: 100%;
-    background-color: #FCA311;
-    position: sticky;
-
-    .nav {
-
-        .logo {
-            width: 8rem;
-            animation: logo 5s;
-
-            @keyframes logo {
-                0% {
-                    opacity: 0;
-                    transform: translatey(-100px);
-                }
-
-                20%,
-                80% {
-                    opacity: 1;
-                    transform: translateX(0);
-                }
-            }
-        }
-
-        .menu {
-            text-align: center;
-            animation: menu 5s normal;
-
-            @keyframes menu {
-                0% {
-                    opacity: 0;
-                    transform: translatex(-100px);
-                }
-
-                20%,
-                80% {
-                    opacity: 1;
-                    transform: translateX(0);
-                }
-            }
-
-            .li {
-                padding: 1rem;
-                display: inline-block;
-                position: relative;
-
-                .item {
-                    font-style: italic;
-                    text-decoration: none;
-                    color: white;
-                    font-size: 1.5rem;
-
-                    .a:hover{
-                        font-size: 3rem;
-                    }
-                }
-            }
-        }
-    }
-}
-
-.quienes-Somos {
+.caja-Quienes {
     width: 80%;
     margin: 0 auto 2rem;
     display: flex;
@@ -140,16 +75,17 @@ footer {
         height: 10rem;
         border-radius: 10rem;
         position: sticky;
+        margin-top: 2rem;
     }
 
     .nav {
-        .ul {
+        .item {
             padding: 1rem;
             display: inline-block;
             position: relative;
 
-            .il {
-                .a {
+            .li {text-decoration: none;
+                .link{
                     font-style: italic;
                     text-decoration: none;
                     color: white;

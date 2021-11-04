@@ -1,63 +1,20 @@
 @import url("https://fonts.googleapis.com/css2? family=Source+Sans+Pro:wght@300&display=swap");
-.fondo-Negro {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  width: 100%;
-  background-color: #FCA311;
-  position: sticky; }
-  .fondo-Negro .nav .logo {
-    width: 8rem;
-    animation: logo 5s; }
-
-@keyframes logo {
-  0% {
-    opacity: 0;
-    transform: translatey(-100px); }
-  20%,
-  80% {
-    opacity: 1;
-    transform: translateX(0); } }
-  .fondo-Negro .nav .menu {
-    text-align: center;
-    animation: menu 5s normal; }
-
-@keyframes menu {
-  0% {
-    opacity: 0;
-    transform: translatex(-100px); }
-  20%,
-  80% {
-    opacity: 1;
-    transform: translateX(0); } }
-    .fondo-Negro .nav .menu .li {
-      padding: 1rem;
-      display: inline-block;
-      position: relative; }
-      .fondo-Negro .nav .menu .li .item {
-        font-style: italic;
-        text-decoration: none;
-        color: white;
-        font-size: 1.5rem; }
-        .fondo-Negro .nav .menu .li .item .a:hover {
-          font-size: 3rem; }
-
-.quienes-Somos {
+.caja-Quienes {
   width: 80%;
   margin: 0 auto 2rem;
   display: flex;
   flex-direction: column;
   align-content: space-around; }
-  .quienes-Somos .tituloMenu {
+  .caja-Quienes .tituloMenu {
     padding: 2rem;
     color: black;
     text-align: center; }
-  .quienes-Somos .quienes_Somos {
+  .caja-Quienes .quienes_Somos {
     color: black;
     text-align: center;
     padding-bottom: 2rem;
     font-size: 2.5rem; }
-  .quienes-Somos .imagenes {
+  .caja-Quienes .imagenes {
     display: flex;
     justify-content: space-evenly;
     align-items: center;
@@ -89,19 +46,22 @@ footer {
     width: 10%;
     height: 10rem;
     border-radius: 10rem;
-    position: sticky; }
-  footer .nav .ul {
+    position: sticky;
+    margin-top: 2rem; }
+  footer .nav .item {
     padding: 1rem;
     display: inline-block;
     position: relative; }
-    footer .nav .ul .il .a {
-      font-style: italic;
-      text-decoration: none;
-      color: white;
-      font-size: 1.5rem; }
-      footer .nav .ul .il .a:hover {
-        color: yellow;
-        font-size: 2rem; }
+    footer .nav .item .li {
+      text-decoration: none; }
+      footer .nav .item .li .link {
+        font-style: italic;
+        text-decoration: none;
+        color: white;
+        font-size: 1.5rem; }
+        footer .nav .item .li .link:hover {
+          color: yellow;
+          font-size: 2rem; }
   footer .insta_Iglesia {
     color: yellow;
     font-size: 2rem; }
@@ -114,49 +74,6 @@ footer {
       font-size: 3rem; }
   footer .redes_sociales {
     color: yellow; }
-
-header {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  width: 100%;
-  background-color: #FCA311;
-  position: sticky; }
-  header .logo {
-    width: 8rem;
-    animation: logo 5s; }
-
-@keyframes logo {
-  0% {
-    opacity: 0;
-    transform: translatey(-100px); }
-  20%,
-  80% {
-    opacity: 1;
-    transform: translateX(0); } }
-  header .nav .menu {
-    text-align: center;
-    animation: menu 5s normal; }
-
-@keyframes menu {
-  0% {
-    opacity: 0;
-    transform: translatex(-100px); }
-  20%,
-  80% {
-    opacity: 1;
-    transform: translateX(0); } }
-    header .nav .menu .li {
-      padding: 1rem;
-      display: inline-block;
-      position: relative; }
-      header .nav .menu .li .item {
-        font-style: italic;
-        text-decoration: none;
-        color: white;
-        font-size: 1.5rem; }
-        header .nav .menu .li .item:hover {
-          font-size: 3rem; }
 
 .trabajamos {
   height: 15rem;
@@ -206,6 +123,41 @@ header {
         color: black;
         text-decoration: none; }
 
+.formulario {
+  background-image: url(../multimedia/familia_pastoral.jpeg);
+  display: flex;
+  flex-flow: column;
+  justify-content: space-evenly;
+  align-items: center;
+  width: 100%;
+  height: 50rem;
+  border: solid 0.5rem blak;
+  border-radius: 4rem;
+  margin-top: 3rem;
+  margin-bottom: 3rem; }
+  .formulario .titulo {
+    color: black;
+    font-size: 3rem; }
+  .formulario .div-contactos {
+    align-items: center; }
+    .formulario .div-contactos .contactos {
+      transition: all, 2s; }
+      .formulario .div-contactos .contactos:focus {
+        width: 30rem;
+        background-color: #aaaa; }
+
+.footer-Contactos {
+  height: 20rem;
+  background-color: black; }
+
+.tabla {
+  font-size: 1.5rem;
+  letter-spacing: 0.5rem;
+  line-height: 5rem;
+  text-align: center; }
+  .tabla .encabezado {
+    font-size: 2rem; }
+
 header {
   display: flex;
   justify-content: center;
@@ -237,39 +189,39 @@ header {
   80% {
     opacity: 1;
     transform: translateX(0); } }
-    header .nav .menu .li {
+    header .nav .menu .nav-item {
       padding: 1rem;
       display: inline-block;
       position: relative; }
-      header .nav .menu .li .a {
+      header .nav .menu .nav-item .nav-link {
         font-style: italic;
         text-decoration: none;
-        color: white;
         font-size: 1.5rem; }
-        header .nav .menu .li .a:hover {
+        header .nav .menu .nav-item .nav-link:hover {
           font-size: 3rem; }
 
-.formulario {
-  background-image: url(../multimedia/familia_pastoral.jpeg);
-  display: flex;
-  flex-flow: column;
-  justify-content: space-evenly;
-  align-items: center;
-  width: 100%;
-  height: 50rem;
-  border: solid 0.5rem blak;
-  border-radius: 4rem; }
-  .formulario .div-contactos {
-    align-items: center; }
-    .formulario .div-contactos .contactos {
-      transition: all, 2s; }
-      .formulario .div-contactos .contactos:focus {
-        width: 30rem;
-        background-color: #aaaa; }
-
-.footer-Contactos {
-  height: 20rem;
-  background-color: black; }
+@media screen and (max-width: 600px) {
+  .caja-Quienes {
+    justify-content: center;
+    font-size: 1rem; }
+    .caja-Quienes .tituloMenu {
+      font-size: 2rem; }
+    .caja-Quienes .quienes_Somos {
+      font-size: 1.5rem; }
+    .caja-Quienes .imagenes {
+      width: 30rem; }
+  .padre {
+    height: 70rem;
+    flex-wrap: nowrap;
+    flex-direction: column; }
+    .padre .altare {
+      margin-top: 2rem;
+      width: 90%;
+      height: 80%; }
+    .padre .familia-Pastoral {
+      justify-content: center;
+      font-size: 1rem;
+      margin: 0%; } }
 
 html {
   font-size: 62.5%;

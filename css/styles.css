@@ -338,6 +338,19 @@ nav {
   color: black;
 }
 
+/* dias y horarios */
+
+.tabla {
+  font-size: 1.5rem;
+  letter-spacing: 0.5rem;
+  line-height: 5rem;
+  text-align: center;
+}
+
+.encabezado {
+  font-size: 2rem;
+}
+
 /*contactos*/
 
 .formulario {
@@ -387,17 +400,20 @@ nav {
 
   .tipo_Ministerios {
     background-color: gray;
-    grid-template-columns:50%, 50%;
+    grid-template-columns: 50%, 50%;
     grid-template-rows: repeat(4, 3fr);
     grid-area: "genomas cami" "karu ivan" "jovenes josue" "desconocido tania"
       "niños calle27" "tety altare";
   }
 
-  .ministerios{font-size: 1.5rem;}
+  .ministerios {
+    font-size: 1.5rem;
+  }
 
-  .parrafo_Ministerio{font-size: 1.5rem;
-  color:black;}
-
+  .parrafo_Ministerio {
+    font-size: 1.5rem;
+    color: black;
+  }
 
   .karu,
   .cami,

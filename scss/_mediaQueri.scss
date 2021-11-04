@@ -1,0 +1,39 @@
+// index
+
+@media screen and (max-width: 600px) {
+
+    .caja-Quienes {
+        justify-content: center;
+        font-size: 1rem;
+
+        .tituloMenu {
+            font-size: 2rem;
+        }
+
+        .quienes_Somos {
+            font-size: 1.5rem;
+        }
+
+        .imagenes {
+            width: 30rem;
+        }
+    }
+
+    .padre {
+        height: 70rem;
+        flex-wrap: nowrap;
+        flex-direction: column;
+
+        .altare {
+            margin-top: 2rem;
+            width: 90%;
+            height: 80%;
+        }
+
+        .familia-Pastoral {
+            justify-content: center;
+            font-size: 1rem;
+            margin: 0%;
+        }
+    }
+}
