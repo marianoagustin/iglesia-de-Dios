@@ -1,4 +1,4 @@
-.formulario{ 
+.formulario {
     background-image: url(../multimedia/familia_pastoral.jpeg);
     display: flex;
     flex-flow: column;
@@ -11,14 +11,18 @@
     margin-top: 3rem;
     margin-bottom: 3rem;
 
-    .titulo{
-        color:black;
+    .titulo {
+        color: black;
         font-size: 3rem;
     }
-    .div-contactos{align-items: center;
-        .contactos{ 
+
+    .div-contactos {
+        align-items: center;
+
+        .contactos {
             transition: all, 2s;
-            &:focus{
+
+            &:focus {
                 width: 30rem;
                 background-color: #aaaa;
             }
@@ -26,6 +30,11 @@
     }
 }
 
-.footer-Contactos{height: 20rem;
+.footer-Contactos {
+    height: 20rem;
     background-color: black;
+}
+
+h1 {
+    color: black;
 }

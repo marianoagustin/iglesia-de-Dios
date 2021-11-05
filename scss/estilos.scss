@@ -1,27 +1,25 @@
-@import "index";
-@import "como-trabajamos";
-@import "contactos";
-@import "dias-y-horarios";
-@import "header";
-@import "mediaQueri";
-
 // cosas generales 
 @import url("https://fonts.googleapis.com/css2? family=Source+Sans+Pro:wght@300&display=swap");
-
 html {
     font-size: 62.5%;
     text-transform: capitalize;
 }
-
 * {
     margin: 0;
     padding: 0;
     box-sizing: content-box;
 }
-
 body {
     font-style: italic;
     font-family: "Source Sans Pro", sans-serif;
     font-size: 1.5rem;
 }
 
+//import de secciones 
+
+@import "index";
+@import "contactos";
+@import "como-trabajamos";
+@import "dias-y-horarios";
+@import "header";
+@import "mediaQueri";
