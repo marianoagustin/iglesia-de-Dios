@@ -1,0 +1,90 @@
+.titulo_Ministerios {
+    background-image: linear-gradient(to top, black, teal);
+    text-align: center;
+    color: tomato;
+    letter-spacing: 0.5rem;
+    font-weight: bold;
+}
+
+.tipo_Ministerios {
+    background-color: black;
+    width: 100%;
+    display: grid;
+    grid-template-columns: repeat(3, 2fr);
+    grid-template-rows: repeat(4, 1fr);
+    grid-template-areas:
+        "genomas cami karu"
+        "ivan jovenes josue"
+        "desconocido  tania niños"
+        "calle27 tety altare";
+    align-items: center;
+
+    .ministerios {
+        grid-area: genomas;
+        color: aquamarine;
+        text-align: center;
+        padding-bottom: 2rem;
+    }
+
+    .parrafo_Ministerios {
+        font-size: 2rem;
+        color: #e76f51;
+        text-align: center;
+    }
+
+    .karu {
+        grid-area: karu;
+        width: 100%;
+        height: 90%;
+    }
+
+    .cami {
+        grid-area: cami;
+        width: 100%;
+        height: 90%;
+    }
+
+    .ivo_Cantando {
+        grid-area: ivan;
+        width: 100%;
+        height: 90%;
+    }
+
+    .josue {
+        grid-area: josue;
+        width: 100%;
+        height: 90%;
+    }
+
+    .tania {
+        grid-area: tania;
+        width: 100%;
+        height: 90%;
+    }
+
+    .desconocido {
+        grid-area: desconocido;
+        width: 100%;
+        height: 90%;
+    }
+
+    .wally {
+        grid-area: altare;
+        width: 100%;
+        height: 90%;
+    }
+
+    .tety {
+        grid-area: tety;
+        width: 100%;
+        height: 90%;
+    }
+
+    .jovenes {
+        font-size: 3rem;
+        &:hover{
+            font-size: 4rem;
+            color: #fca311;
+        }
+    }
+}
