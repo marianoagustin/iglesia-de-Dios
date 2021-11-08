@@ -19,17 +19,19 @@
         "calle27 tety altare";
     align-items: center;
 
-    .ministerios {
-        grid-area: genomas;
-        color: aquamarine;
-        text-align: center;
-        padding-bottom: 2rem;
-    }
+    div {
+        .ministerios {
+            grid-area: genomas;
+            color: aquamarine;
+            text-align: center;
+            padding-bottom: 2rem;
+        }
 
-    .parrafo_Ministerios {
-        font-size: 2rem;
-        color: #e76f51;
-        text-align: center;
+        .parrafo_Ministerio {
+            font-size: 2rem;
+            color: #e76f51;
+            text-align: center;
+        }
     }
 
     .karu {
@@ -81,8 +83,10 @@
     }
 
     .jovenes {
+        color: white;
         font-size: 3rem;
-        &:hover{
+
+        &:hover {
             font-size: 4rem;
             color: #fca311;
         }
