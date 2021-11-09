@@ -1,0 +1,44 @@
+footer{
+    background-color: #000814;
+    height: auto;
+    .mapa {
+        width: 25%;
+        height: 15rem;
+        border-radius: 10rem;
+        position: sticky;
+        margin-top: 2rem;}
+    
+    .footer-Menu{
+        a{
+            text-decoration: none;
+            color: white;
+
+            &:hover{
+                font-size: 2rem;
+                color: yellow;
+            }
+        }
+    }
+
+    .insta_Iglesia {
+        color: yellow;
+        font-size: 2rem;
+
+        &:hover {
+            font-size: 3rem;
+        }
+    }
+
+    .face_Iglesia {
+        color: yellow;
+        font-size: 2rem;
+
+        &:hover {
+            font-size: 3rem;
+        }
+    }
+
+    .redes_sociales {
+        color: yellow;
+    }
+}

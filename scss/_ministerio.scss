@@ -1,13 +1,15 @@
 .titulo_Ministerios {
-    background-image: linear-gradient(to top, black, teal);
+    padding-top: 1rem;
+    background-color: #14213D;
     text-align: center;
     color: tomato;
     letter-spacing: 0.5rem;
     font-weight: bold;
+    margin-bottom: 0%;
 }
 
 .tipo_Ministerios {
-    background-color: black;
+    background-color: #14213D;
     width: 100%;
     display: grid;
     grid-template-columns: repeat(3, 2fr);
@@ -22,7 +24,7 @@
     div {
         .ministerios {
             grid-area: genomas;
-            color: aquamarine;
+            color: white;
             text-align: center;
             padding-bottom: 2rem;
         }
@@ -89,6 +91,22 @@
         &:hover {
             font-size: 4rem;
             color: #fca311;
+        }
+    }
+}
+
+footer{
+    background-color: #F4A261;
+    height: 13rem;
+    .footer-Menu{
+        a{
+            text-decoration: none;
+            color: black;
+
+            &:hover{
+                font-size: 2rem;
+                color: yellow;
+            }
         }
     }
 }
