@@ -154,17 +154,17 @@
         }
     }
 
-    .celulas{
+    .celulas {
         width: 100%;
-    height: 100rem;
-    background-color: white;
-    display: grid;
-    grid-template-columns: repeat(2, 2fr);
-    grid-template-rows: repeat(3, 3.5fr);
+        height: 100rem;
+        background-color: white;
+        display: grid;
+        grid-template-columns: repeat(2, 2fr);
+        grid-template-rows: repeat(3, 3.5fr);
     }
 }
 
-@media screen and (max-width: 600px){
+@media screen and (max-width: 600px) {
     .trabajamos {
         text-align: center;
         height: 25rem;
@@ -182,17 +182,17 @@
         }
     }
 
-    .celulas{
+    .celulas {
         width: 100%;
-    height: 130rem;
-    background-color: white;
-    display: grid;
-    grid-template-columns: repeat(1, 2fr);
-    grid-template-rows: repeat(6, 3.5fr);
-    
+        height: 130rem;
+        background-color: white;
+        display: grid;
+        grid-template-columns: repeat(1, 2fr);
+        grid-template-rows: repeat(6, 3.5fr);
 
-    .lideres{
-        height: 20px;
-    }
+
+        .lideres {
+            height: 20px;
+        }
     }
 }
