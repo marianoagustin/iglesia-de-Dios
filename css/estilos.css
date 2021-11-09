@@ -21,10 +21,10 @@ body {
   align-content: space-around; }
   .caja-Quienes .tituloMenu {
     padding: 2rem;
-    color: black;
+    color: #FCA311;
     text-align: center; }
   .caja-Quienes .quienes_Somos {
-    color: black;
+    color: whiteS;
     text-align: center;
     padding-bottom: 2rem;
     font-size: 2.5rem; }

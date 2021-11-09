@@ -161,8 +161,9 @@
         display: grid;
         grid-template-columns: repeat(2, 2fr);
         grid-template-rows: repeat(3, 3.5fr);
+        }
     }
-}
+
 
 @media screen and (max-width: 600px) {
     .trabajamos {
@@ -207,6 +208,7 @@
         letter-spacing: 0;
         line-height: 5rem;
         text-align: center;
+
         .encabezado {
             font-size: 1rem;
         }
