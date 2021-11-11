@@ -34,6 +34,29 @@
             color: #e76f51;
             text-align: center;
         }
+
+            .jovenes {
+                color: white;
+                font-size: 3rem;
+                margin-left: 11rem;
+
+                &:hover {
+                    font-size: 4rem;
+                    color: #fca311;
+                }
+            }
+
+            .faceInsta{
+                color: white;
+                font-size:3rem;
+                margin-left: 14rem;
+                
+                &:hover {
+                    font-size: 4rem;
+                    color: #fca311;
+                }
+            }
+        
     }
 
     .karu {
@@ -84,29 +107,4 @@
         height: 90%;
     }
 
-    .jovenes {
-        color: white;
-        font-size: 3rem;
-
-        &:hover {
-            font-size: 4rem;
-            color: #fca311;
-        }
-    }
-}
-
-footer{
-    background-color: #F4A261;
-    height: 13rem;
-    .footer-Menu{
-        a{
-            text-decoration: none;
-            color: black;
-
-            &:hover{
-                font-size: 2rem;
-                color: yellow;
-            }
-        }
-    }
 }

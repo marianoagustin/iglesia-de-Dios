@@ -1,21 +1,36 @@
-footer{
+footer {
     background-color: #000814;
     height: auto;
+    
+
     .mapa {
         width: 25%;
         height: 15rem;
         border-radius: 10rem;
         position: sticky;
-        margin-top: 2rem;}
-    
-    .footer-Menu{
-        a{
-            text-decoration: none;
-            color: white;
+        margin-top: 2rem;
+    }
 
-            &:hover{
+    .footer-Nav {
+        text-align: center;
+        word-spacing: 1rem;
+        font-family: 'Noto Sans JP', sans-serif;
+        font-family: 'Nunito', sans-serif;
+
+        .footer-Menu {
+            display: inline;
+
+            a {
+                text-decoration: none;
+                color: white;
                 font-size: 2rem;
-                color: yellow;
+                font-family: 'Marvel', sans-serif;
+                font-family: 'Open Sans Condensed', sans-serif;
+
+                &:hover {
+                    font-size: 2rem;
+                    color: yellow;
+                }
             }
         }
     }
@@ -39,6 +54,7 @@ footer{
     }
 
     .redes_sociales {
+        display: inline;
         color: yellow;
     }
 }
