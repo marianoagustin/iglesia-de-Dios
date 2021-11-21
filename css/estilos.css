@@ -205,6 +205,8 @@ header {
     font-size: 2rem;
     color: #e76f51;
     text-align: center; }
+  .tipo_Ministerios div .cami {
+    color: black; }
   .tipo_Ministerios div .jovenes {
     color: white;
     font-size: 3rem;
