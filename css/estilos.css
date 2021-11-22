@@ -1,8 +1,7 @@
 @charset "UTF-8";
 @import url("https://fonts.googleapis.com/css2? family=Source+Sans+Pro:wght@300&display=swap");
 html {
-  font-size: 62.5%;
-  text-transform: capitalize; }
+  font-size: 62.5%; }
 
 * {
   margin: 0;
@@ -24,6 +23,8 @@ body {
     color: #FCA311;
     text-align: center; }
   .caja-Quienes .quienes_Somos {
+    padding-left: 8rem;
+    padding-right: 8rem;
     color: white;
     text-align: center;
     padding-bottom: 2rem;
@@ -93,18 +94,20 @@ body {
 .trabajamos {
   text-align: center;
   height: 15rem;
-  background-image: linear-gradient(to top, white, #fca311); }
+  background-color: #003566; }
   .trabajamos .trabajamos_Titulo {
     text-align: center;
-    color: black; }
+    color: #FCA311; }
   .trabajamos .parrafo-Trabajamos {
-    color: black;
+    padding-right: 5rem;
+    padding-left: 5rem;
+    color: white;
     text-align: justify; }
 
 .celulas {
   width: 100%;
   height: 70rem;
-  background-color: white;
+  background-color: #001D3D;
   display: grid;
   grid-template-columns: repeat(3, 2fr);
   grid-template-rows: repeat(2, 3.5fr); }
@@ -112,7 +115,7 @@ body {
     background-color: black;
     display: grid;
     padding-top: 2rem;
-    color: white;
+    color: #001D3D;
     height: 23px;
     border: solid 0.5rem black;
     border-radius: 2rem;
@@ -126,7 +129,7 @@ body {
       border: solid 0.5px white;
       cursor: pointer; }
   .celulas .titulo_Celulas {
-    color: white;
+    color: #FCA311;
     text-align: center; }
 
 .tabla {
@@ -298,21 +301,16 @@ header {
 @media screen and (max-width: 790px) {
   .titulo_Ministerios {
     color: #e76f51;
-    background-color: #f7cadc;
     margin: 0%; }
   .tipo_Ministerios {
-    background-color: #f7cadc;
     grid-template-columns: 50%, 50%;
     grid-template-rows: repeat(4, 3fr);
     grid-area: "genomas cami" "karu ivan" "jovenes josue" "desconocido tania" "niños calle27" "tety altare"; }
     .tipo_Ministerios div .ministerios {
-      color: black;
       font-size: 1.9rem;
       font-weight: bolder; }
     .tipo_Ministerios div .parrafo_Ministerio {
-      font-size: 1.5rem;
-      color: #0b3825;
-      font-weight: bold; }
+      font-size: 1.5rem; }
     .tipo_Ministerios .karu,
     .tipo_Ministerios .cami,
     .tipo_Ministerios .ivo_Cantando,
@@ -321,6 +319,8 @@ header {
     .tipo_Ministerios .desconocido,
     .tipo_Ministerios .wally,
     .tipo_Ministerios .tety {
+      width: 100%;
+      height: 75%;
       grid-area: unset; } }
 
 @media screen and (max-width: 600px) {
@@ -341,45 +341,71 @@ header {
 @media screen and (max-width: 790px) {
   .trabajamos {
     text-align: center;
-    height: 20rem;
-    background-image: linear-gradient(to top, white, #fca311); }
+    height: 23rem; }
     .trabajamos .trabajamos_Titulo {
       text-align: center;
-      color: black;
       font-size: 1.5rem; }
     .trabajamos .parrafo-Trabajamos {
-      color: black;
       text-align: justify; }
   .celulas {
     width: 100%;
     height: 100rem;
-    background-color: white;
     display: grid;
     grid-template-columns: repeat(2, 2fr);
-    grid-template-rows: repeat(3, 3.5fr); } }
+    grid-template-rows: repeat(3, 3.5fr); }
+    .celulas .lideres {
+      background-color: #001D3D;
+      display: grid;
+      padding-top: 2rem;
+      color: white;
+      height: 0px;
+      border: none;
+      border-radius: 0rem;
+      justify-content: center;
+      transition: none; }
+      .celulas .lidereshover {
+        height: 0px;
+        padding: 0rem;
+        color: black;
+        background-color: #001D3D;
+        border: 0px;
+        cursor: 0px; } }
 
 @media screen and (max-width: 600px) {
   .trabajamos {
     text-align: center;
-    height: 25rem;
-    background-image: linear-gradient(to top, white, #fca311); }
+    height: 25rem; }
     .trabajamos .trabajamos_Titulo {
       text-align: center;
-      color: black;
       font-size: 1.5rem; }
     .trabajamos .parrafo-Trabajamos {
-      color: black;
-      text-align: justify;
-      font-size: 1.3rem; }
+      text-align: center;
+      font-size: 1rem;
+      width: 23rem; }
   .celulas {
     width: 100%;
     height: 200rem;
-    background-color: white;
+    background-color: #001D3D;
     display: grid;
     grid-template-columns: repeat(1, 2fr);
     grid-template-rows: repeat(6, 3.5fr); }
     .celulas .lideres {
-      height: 20px; } }
+      background-color: #001D3D;
+      display: grid;
+      padding-top: 2rem;
+      color: white;
+      height: 0px;
+      border: none;
+      border-radius: 0rem;
+      justify-content: center;
+      transition: none; }
+      .celulas .lidereshover {
+        height: 0px;
+        padding: 0rem;
+        color: black;
+        background-color: #001D3D;
+        border: 0px;
+        cursor: 0px; } }
 
 @media screen and (max-width: 600px) {
   .tabla {
