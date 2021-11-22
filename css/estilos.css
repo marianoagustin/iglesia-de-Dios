@@ -202,7 +202,9 @@ header {
     text-align: center;
     padding-bottom: 2rem; }
   .tipo_Ministerios div .parrafo_Ministerio {
-    font-size: 2rem;
+    padding-right: 4rem;
+    padding-left: 4rem;
+    font-size: 1.8rem;
     color: #e76f51;
     text-align: center; }
   .tipo_Ministerios div .cami {
