@@ -1,14 +1,14 @@
 .formulario {
     background-image: url(../multimedia/familia_pastoral.jpeg);
+    
     background-size: cover;
     display: flex;
     flex-flow: column;
     justify-content: space-evenly;
     align-items: center;
-    width: 80%;
-    height: 60rem;
-    border: solid 0.5rem blak;
     border-radius: 10rem;
+    width:56%;
+    height: 60rem;
     margin-top: 3rem;
     margin-bottom: 3rem;
 
@@ -31,17 +31,15 @@
         align-items: center;
 
         .contactos {
-            width: 10rem;
-
-            &:focus {
-                width: 30rem;
-                background-color: #aaaa;
+            width: 100rem;
+            &focus{
+                
             }
         }
     }
 }
 
 .footer-Contactos {
-    height: 10rem;
+    height: 4rem;
     background-color: black;
 }
