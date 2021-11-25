@@ -4,6 +4,7 @@
     background-color: #003566;
 
     .trabajamos_Titulo{
+        padding-top: 1rem;
         text-align: center;
         color: #FCA311;
     }
@@ -21,18 +22,22 @@
     height: 70rem;
     background-color: #001D3D;
     display: grid;
+    padding-top: 2rem;
     grid-template-columns: repeat(3, 2fr);
     grid-template-rows: repeat(2, 3.5fr);
 
-    .lideres {background-color: black;
+    .lideres {
+        background-color:#FCA311 ;
         display: grid;
-        padding-top: 2rem;
+        padding-top: 1rem;
+        margin-right: 1rem;
+        margin-left: 1rem;
         color: #001D3D;
         height: 23px;
-        border: solid 0.5rem black;
-        border-radius: 2rem;
+        border: solid 0.5px #FCA311;
+        border-radius: 4rem;
         justify-content: center;
-        transition: height, 4s;
+        transition: height, 1.5s;
 
         &:hover {
             height: 285px;
@@ -46,7 +51,7 @@
 
     .titulo_Celulas {
         
-        color: #FCA311;
+        color: black;
         text-align: center;
     }
 }
