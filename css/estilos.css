@@ -439,10 +439,12 @@ header {
 @media screen and (max-width: 600px) {
   .pie .mapa {
     width: 100%; }
-  .pie .footer-Nav .footer-Menu a {
-    text-decoration: none;
-    color: white;
-    font-size: 1.3rem; }
+  .pie .footer-Nav .footer-Menu {
+    word-spacing: 0rem; }
+    .pie .footer-Nav .footer-Menu a {
+      text-decoration: none;
+      color: white;
+      font-size: 1.3rem; }
   .insta_Iglesia {
     font-size: 1rem; }
   .face_Iglesia {
@@ -474,15 +476,18 @@ footer {
           font-size: 2rem;
           color: yellow; }
   footer .insta_Iglesia {
+    align-items: center;
     color: yellow;
     font-size: 2.5rem; }
     footer .insta_Iglesia:hover {
       font-size: 3rem; }
   footer .face_Iglesia {
+    align-items: center;
     color: yellow;
     font-size: 2.5rem; }
     footer .face_Iglesia:hover {
       font-size: 3rem; }
   footer .redes_sociales {
+    text-align: center;
     display: inline;
     color: yellow; }
