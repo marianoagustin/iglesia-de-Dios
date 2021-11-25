@@ -125,7 +125,7 @@ body {
       height: 285px;
       padding: 2rem;
       color: black;
-      background-color: teal;
+      background-color: #FCA311;
       border: solid 0.5px white;
       cursor: pointer; }
   .celulas .titulo_Celulas {
@@ -442,7 +442,7 @@ header {
   .pie .footer-Nav .footer-Menu a {
     text-decoration: none;
     color: white;
-    font-size: 1.5rem; }
+    font-size: 1.3rem; }
   .insta_Iglesia {
     font-size: 1rem; }
   .face_Iglesia {
