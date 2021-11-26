@@ -284,7 +284,7 @@ header {
   .caja-Quienes .imagenes {
     width: 50rem; }
   .padre {
-    height: 70rem;
+    height: 82rem;
     flex-wrap: nowrap;
     flex-direction: column; }
     .padre .altare {
@@ -313,11 +313,11 @@ header {
     .padre .altare {
       margin-top: 2rem;
       width: 90%;
-      height: 80%; }
-    .padre .familia-Pastoral {
-      justify-content: center;
-      font-size: 1rem;
-      margin: 0%; } }
+      height: 85%; }
+      .padre .altare .familia-Pastoral {
+        justify-content: center;
+        font-size: 2rem;
+        margin: 0%; } }
 
 @media screen and (max-width: 790px) {
   .titulo_Ministerios {
@@ -367,9 +367,12 @@ header {
     height: 23rem; }
     .trabajamos .trabajamos_Titulo {
       text-align: center;
-      font-size: 1.5rem; }
+      font-size: 2.3rem; }
     .trabajamos .parrafo-Trabajamos {
-      text-align: justify; }
+      text-align: justify;
+      padding-left: 1rem;
+      padding-right: 1rem;
+      font-size: 1.6rem; }
   .celulas {
     width: 100%;
     height: 100rem;
@@ -383,7 +386,7 @@ header {
       background-color: #001D3D;
       display: grid;
       padding-top: 2rem;
-      color: #e76f51;
+      color: white;
       height: 0px;
       border: none;
       border-radius: 0rem;
@@ -395,7 +398,9 @@ header {
         color: white;
         background-color: #001D3D;
         border: none;
-        cursor: none; } }
+        cursor: none; }
+      .celulas .lideres span {
+        color: yellow; } }
 
 @media screen and (max-width: 600px) {
   .trabajamos {
