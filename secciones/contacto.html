@@ -92,7 +92,10 @@
 
     <form class="formulario container">
       <h1 class="text-center fw-bold titulo">Contactate con nosotros</h1>
-      <div class="div-Contactos">
+
+      <label class="labelNombre">Ingrese su nombre</label>
+      
+      <div>
         <input
           type="text"
           placeholder="Ingrese su nombre"
@@ -100,7 +103,10 @@
           class="contactos"
         />
       </div>
-      <div class="div-Contactos">
+
+      <label class="labelNombre">Ingrese su apellido</label>
+      
+      <div>
         <input
           type="text"
           placeholder="Ingrese su apellido"
@@ -108,7 +114,10 @@
           class="contactos"
         />
       </div>
-      <div class="div-Contactos">
+      
+      <label class="labelNombre">Ingrese su Gmail</label>
+      
+      <div>
         <input
           type="email"
           name="email"
@@ -116,7 +125,9 @@
           class="contactos"
         />
       </div>
-      <div class="div-Contactos">
+      
+      <div>
+      
         <textarea
           class="contactos"
           name="mensaje"
@@ -124,12 +135,15 @@
           cols="30"
           rows="2"
           placeholder="Ingrese su pedido de oracion..."
-        ></textarea>
+          ></textarea>
+      
+        </div>
+      
+        <div class="div-Contactos">
+        <input type="reset" class="btn btn-success botones" />
+        <input type="submit" class="btn btn-success botones" />
       </div>
-      <div class="div-Contactos">
-        <input type="reset" class="btn btn-success" />
-        <input type="submit" class="btn btn-success" />
-      </div>
+      
       <iframe
         src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d851.169311671112!2d-64.13063027077801!3d-31.423017354417293!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x9432bd38b2a19f9d%3A0xad319ff2e4ce922c!2zUsOtbyBQYXJhbsOhIDExNDgsIEPDs3Jkb2Jh!5e0!3m2!1ses!2sar!4v1631830947482!5m2!1ses!2sar"
         width="600"
@@ -168,5 +182,6 @@
       integrity="sha384-QJHtvGhmr9XOIpI6YVutG+2QOK9T+ZnN4kzFN1RtK3zEFEIsxhlmWl5/YESvpZ13"
       crossorigin="anonymous"
     ></script>
+    
   </body>
 </html>

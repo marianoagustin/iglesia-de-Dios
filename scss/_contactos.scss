@@ -1,12 +1,11 @@
 .formulario {
-    background-image: url(../multimedia/familia_pastoral.jpeg);
-    background-size: cover;
+    background-image: url(../multimedia/fancy-cushion.png);
     display: flex;
     flex-flow: column;
     justify-content: space-evenly;
     align-items: center;
-    border-radius: 10rem;
-    width:56%;
+    border-radius: 2rem;
+    // width:10%;
     height: 60rem;
     margin-top: 3rem;
     margin-bottom: 3rem;
@@ -25,14 +24,20 @@
         font-size: 3rem;
     }
 
-    .div-contactos {
-        transition: all, 3s;
-        align-items: center;
+    .labelNombre{
+        color: #FCA311;
+    }
 
-        .contactos {
-            width: 100rem;
+    .contactos{
+        width: 20rem;
+        transition: all, 3s;
+
+        &:focus{
+            width: 30rem;
+            background-color: #003566;
         }
     }
+
 }
 
 .footer-Contactos {

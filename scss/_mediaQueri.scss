@@ -163,27 +163,28 @@
         grid-template-rows: repeat(3, 3.5fr);
 
         .titulo_Celulas {
-            color: white;
+            color: #e76f51;
+            font-size: 2.5rem;
         }
 
         .lideres {
             background-color: #001D3D;
             display: grid;
             padding-top: 2rem;
-            color: white;
+            color: #e76f51;
             height: 0px;
             border: none;
             border-radius: 0rem;
             justify-content: center;
             transition: none;
 
-            &hover {
-                height: 0px;
+            &:hover {
+                height:0px;
                 padding: 0rem;
-                color: black;
+                color: white;
                 background-color: #001D3D;
-                border: 0px;
-                cursor: 0px;
+                border: none;
+                cursor: none;
             }
         }
     }
