@@ -9,7 +9,7 @@
     }
 
     .padre {
-        height: 82rem;
+        height: 90rem;
         flex-wrap: nowrap;
         flex-direction: column;
 
@@ -20,7 +20,7 @@
         }
 
         .familia-Pastoral {
-            justify-content: center;
+            justify-content: justify;
             font-size: 1rem;
             margin: 0%;
         }
@@ -47,7 +47,7 @@
     }
 
     .padre {
-        height: 70rem;
+        height: 100rem;
         flex-wrap: nowrap;
         flex-direction: column;
 
@@ -274,6 +274,18 @@
         width: 100%;
         margin-top: 3rem;
         margin-bottom: 3rem;
+
+        .labelNombre{
+            font-size: 2rem;
+        }
+
+        .contactos{
+            width: 20rem;
+        }
+
+        .mapa{
+            width: 40rem;
+        }
     }
 }
 

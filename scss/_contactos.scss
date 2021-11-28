@@ -26,10 +26,12 @@
 
     .labelNombre{
         color: #FCA311;
+        font-size: 1.5rem;
+        font-style: italic;
     }
 
     .contactos{
-        width: 20rem;
+        width: 30rem;
         transition: all, 3s;
 
         &:focus{
